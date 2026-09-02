@@ -30,7 +30,7 @@ prdRetstockUploadServer <- function(input,output,session,dms_token) {
       mdlDFprdRetstockUploadPkg::prdRetstock_delete(dms_token = dms_token)
 
       # 读取数据
-      data <- readxl::read_excel(filename,col_types = c("text", "text", "text",
+      data <- readxl::read_excel(filename,col_types = c("text", "text", "text", "text",
                                                         "text", "text", "text", "text", "text",
                                                         "text", "text", "text", "text", "text",
                                                         "text", "text", "numeric", "text",

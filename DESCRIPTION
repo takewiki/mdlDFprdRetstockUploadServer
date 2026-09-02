@@ -1,7 +1,7 @@
 Package: mdlDFprdRetstockUploadServer
 Type: Package
 Title: Server Package For DMS mdlDFprdRetstockUpload Module in R
-Version: 1.0.0
+Version: 1.0.1
 Author: hulilei
 Maintainer: hulilei <hulilei@takewiki.com.cn>
 Description: More about what it does (maybe more than one line)
